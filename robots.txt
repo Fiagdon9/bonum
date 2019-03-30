@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /index.html
+Host: bonum.ru
+Sitemap: http://bonum.ru/sitemap.xml

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<base href="/">
+
+	<title>BONUM - Экспертная организация</title>
+	<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="img/bonum.jpg">
+	<link rel="icon" href="img/favicon/fvc_bonum.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+
+	<meta name="theme-color" content="#1278BC">
+	
+	<link rel="stylesheet" href="css/main.min.css">
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> -->
+	<script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+<header class="main-head">
+	<div class="container">
+		<div class="row justify-content-between">
+			<div class="col-sm-5 col-md-4 my-logo"><a href="index.html" class="my-logo-a">BONUM</a></div>
+			<div class="col col-md-3 align-self-center adress">Адрес организации<br><div class="info-data-adress"><span><i class="fas fa-map-marker-alt"></i> г.Владикавказ ул.Чкалова 1а</span></div></div>
+			<div class="justify-start col-sm-7 col-md-5 align-self-center">
+				<div class="info-data col phone">
+						<a href="tel:(918) 709-3737" style="border: none; text-decoration: none;"><span><i class="fas fa-phone"></i> +7(918)</span> 709-37-37<br></a>
+				</div>
+				<div class="info-data col email">
+					<span><i class="fa fa-envelope"></i> E-Mail:</span> <a href="mailto:torgi-bonum@mail.ru">torgi-bonum@mail.ru</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="light-line"></div>
+	<!-- Menu -->
+	<button class="main-menu-button" id="myMenuId"><i class="fa fa-bars"></i></button>
+	<nav class="main-menu">
+		<div class="col super-menu">
+			<ul class="sf-menu">
+				<li class="col-md-auto"><a href="index.html">О нас</a></li>
+				<li class="col-md-auto"><a href="services.html">Услуги</a></li>
+				<li class="col-md-auto"><a href="crew.html">Команда</a></li>
+				<li class="col-md-auto"><a href="cases.html">Практика</a></li>
+				<!-- <li><a href="#" id="menu" class="icon">&#9776;</a></li> -->
+			</ul>
+		</div>	
+	</nav>
+	<script type="text/javascript">
+		$(document.getElementById('myMenuId')).click(function(){
+			if ($(window).width() <= 768) {
+				$(this).next().slideToggle();
+			}
+		});
+	</script>
+</header>
+<main>
+	<!-- style="background-image: linear-gradient(to bottom, #0b1855, #0d2f6f, #0e4689, #0e5fa3, #1278bc); height: 700px;" -->
+	<div class="row services-main justify-content-center">
+		<div class="page-name" style="width: 100%; display: block;">
+				<h1 class="page-name-title">Услуги</h1>
+		</div>
+		<section class="service col-md-5 col-sm-7 col-7">
+			<a href="service.html" class="block-silka">
+				<img src="img/logo/administr.png">
+				<p class="service-title">Международное право</p>
+			</a>
+		</section>
+		<section class="service col-md-5 col-sm-7 col-7">
+			<a href="#" class="block-silka">
+				<img src="img/logo/intellect.png">
+				<p class="service-title">Международное право</p>
+			</a>
+		</section>
+		<section class="service col-md-5 col-sm-7 col-7">
+			<a href="#" class="block-silka">
+				<img src="img/logo/nalog.png">
+				<p class="service-title">Налоговое право</p>
+			</a>
+		</section>
+		<section class="service col-md-5 col-sm-7 col-7">
+				<a href="#" class="block-silka">
+					<img src="img/logo/trud.png">
+					<p class="service-title">Трудовое право</p>
+				</a>
+		</section>
+		<section class="service col-md-5 col-sm-7 col-7">
+			<a href="#" class="block-silka">
+				<img src="img/logo/family.png">
+				<p class="service-title">Семейное право</p>
+			</a>
+		</section>
+		<section class="service col-md-5 col-sm-7 col-7">
+			<a href="#" class="block-silka">
+				<img src="img/logo/ugol.png">
+				<p class="service-title">Уголовное право</p>
+			</a>
+		</section>
+	</div>
+</main>
+<footer class="page-footer">
+	<div class="page-footer-information">
+			<div class="container">
+					<div class="row">
+							<div class="col-sm-6 col">
+									<div class="page-footer-heading">
+											<!-- <h2>Contact Us</h2> -->
+											<h2>О нас</h2>
+									</div>
+									<div class="row">
+											<div class="col-md-5">
+													<address>
+															<i class="fa fa-building address"></i>
+															<span>
+																	г.Владикавказ<br>
+																	ул.Чкалова 1а
+															</span>
+													</address>
+											</div>
+											<div class="col-md-7">
+													<address>
+																	<i class="fa fa-phone-square fa-fw"></i> <strong><a href="tel:(918) 709-3737">(918) 709-37-37</a></strong><br>
+																	<i class="fa fa-envelope fa-fw"></i> <a href="mailto:torgi-bonum@mail.ru" class="address-email">torgi-bonum@mail.ru</a>
+													</address>
+											</div>
+									</div>
+				<div class="row">
+					<div class="col-xs-12">
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col">
+			<div class="page-footer-heading">
+				<!-- <h2>Practice Areas</h2> -->
+				<h2>Области практики</h2>
+			</div>
+			<nav class="footer-navigation">
+				<a href="https://calgarydefence.com/practice-areas/internet-crime-pornography/" title="Internet Crime / Pornography">Internet Crime / Pornography</a>
+				<a href="https://calgarydefence.com/practice-areas/violent-and-domestic-offences/" title="Violent &amp; Domestic Offences">Violent &amp; Domestic Offences</a>                                    <a href="https://calgarydefence.com/practice-areas/dui-impaired-driving/" title="DUI / Impaired Driving">DUI / Impaired Driving</a>
+				<a href="https://calgarydefence.com/practice-areas/homicide/" title="Homicide">Homicide</a>
+				<a href="https://calgarydefence.com/practice-areas/property-offences/" title="Property Offences">Property Offences</a>
+				<a href="https://calgarydefence.com/practice-areas/youth-matters/" title="Youth Matters">Youth Matters</a>
+				<a href="https://calgarydefence.com/practice-areas/asset-recovery/" title="Asset Recovery">Asset Recovery</a>
+				<a href="https://calgarydefence.com/practice-areas/firearm-and-weapons-offences/" title="Firearm &amp; Weapons Offences">Firearm &amp; Weapons Offences</a>
+				<a href="https://calgarydefence.com/practice-areas/breach-charges/" title="Breach Charges">Breach Charges</a>
+				<a href="https://calgarydefence.com/practice-areas/administrative-offences/" title="Administrative Offences">Administrative Offences</a>
+				<a href="https://calgarydefence.com/practice-areas/drug-offences/" title="Drug Offences">Drug Offences</a>
+				<a href="https://calgarydefence.com/practice-areas/bail/" title="Bail">Bail</a>
+				<a href="https://calgarydefence.com/practice-areas/appeals/" title="Appeals">Appeals</a>
+			</nav>      
+		</div>
+	</div>
+</div>
+</div>
+	<div class="page-footer-copyright">
+			<div class="container">
+					<div class="row">
+							<div class="col col-sm-6">Copyright © 2015 <strong>Roulston Urquhart Criminal Defence</strong></div>
+							<div class="col-xs-12 col-sm-6 col icona-marketing">legal marketing by <a href="http://icona.ca/" title="legal marketing by ICONA" target="_blank">ICONA</a></div>
+					</div>
+			</div>
+	</div>
+</footer>
+<script type="text/javascript" src="libs/jquery/dist/jquery.min.js"></script>
+<script src="js/scripts.min.js"></script>
+</body>
+</html>
