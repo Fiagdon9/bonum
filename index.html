@@ -4,157 +4,185 @@
 <head>
 
 	<meta charset="utf-8">
-	<base href="bonum1">
+	<!-- <base href="/"> -->
 
-	<title>BONUM - Экспертная организация</title>
-	<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+	<title>OptimizedHTML 4</title>
+	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	
 	<!-- Template Basic Images Start -->
-	<meta property="og:image" content="img/bonum.jpg">
-	<link rel="icon" href="img/favicon/fvc_bonum.ico">
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
 	<!-- Template Basic Images End -->
-
-	<meta name="theme-color" content="#1278BC">
 	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+
+
 	<link rel="stylesheet" href="css/main.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<!-- <script src="js/jquery.min.js"></script> -->
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> -->
+
+
+	<!-- link to the CSS files for this menu type -->
+	<link rel="stylesheet" media="screen" href="superfish.css">
+
+	<!-- link to the JavaScript files (hoverIntent is optional) -->
+	<!-- if you use hoverIntent, use the updated r7 version (see FAQ) -->
+	<!-- <script type="text/javascript" src="hoverIntent.js"></script> -->
+	<!-- <script type="text/javascript" src="superfish.js"></script> -->
+
+	<!-- initialise Superfish -->
+	<!-- <script>
+
+		jQuery(document).ready(function(){
+			jQuery('ul.sf-menu').superfish();
+		});
+
+	</script> -->
+<script src="js/jquery.min.js"></script>
 </head>
 
 <body>
-<header class="main-head">
-	<div class="container">
-		<div class="row justify-content-between">
-			<div class="col-sm-5 col-md-4 my-logo"><a href="index.html" class="my-logo-a">BONUM</a></div>
-			<div class="col col-md-3 align-self-center adress">Адрес организации<br><div class="info-data-adress"><span><i class="fas fa-map-marker-alt"></i> г.Владикавказ ул.Чкалова 1а</span></div></div>
-			<div class="justify-start col-sm-7 col-md-5 align-self-center">
-				<div class="info-data col phone">
-						<a href="tel:(918) 709-3737" style="border: none; text-decoration: none;"><span><i class="fas fa-phone"></i> +7(918)</span> 709-37-37<br></a>
-				</div>
-				<div class="info-data col email">
-					<span><i class="fa fa-envelope"></i> E-Mail:</span> <a href="mailto:torgi-bonum@mail.ru">torgi-bonum@mail.ru</a>
-				</div>
 
-			</div>
-		</div>
-	</div>
-	<div class="light-line"></div>
-	<!-- Menu -->
-	<button class="main-menu-button" id="myMenuId"><i class="fa fa-bars"></i></button>
-	<nav class="main-menu">
-		<div class="col super-menu">
-			<ul class="sf-menu">
-				<li class="col-md-auto"><a href="index.html">О нас</a></li>
-				<li class="col-md-auto"><a href="services.html">Услуги</a></li>
-				<li class="col-md-auto"><a href="crew.html">Команда</a></li>
-				<li class="col-md-auto"><a href="cases.html">Практика</a></li>
-			</ul>
-		</div>	
-	</nav>
-</header>
-<!--  style="background-image: url(img/giammarco-boscaro-380907-unsplash.jpg);" -->
-<main class="slide row justify-content-around" style="padding: 60px 0px;">
-	<div class="info-content col-md-5">
-		<ul class="info-ul">
-			<li>Планирование гос. закупок и осуществление процедур торгов</li>
-			<li>Государственные и муниципальные торги по реализации имущества</li>
-			<li>Экспертиза товаров, работ и услуг</li>
-			<li>Ведение бухгалтерского учёта и составление налоговой отчетности</li>
-			<li>Оказание всех видов юридических услуг</li>
-		</ul>
-	</div>
-	<div class="contact-content col-md-5">
-			<div class="hidden-xs">
-				<p>
-					<span>Офис:  Понедельник - Пятница с 8:00 до 16:30</span>
-					<br>
-					24 ЧАСА В ЛЮБОЕ ВРЕМЯ СУТОК: +7 (918) 709-3737
-				</p>
-				<hr>
-				<form action="send.php" method="post" class="form-mail">
-					<label>Имя
-						<input type="text" name="name"><br>
-					</label>
-					<label>E-Mail
-						<input type="text" name="email" required>
-					</label><br>
-					<label>Текст сообщения<br>
-						<textarea cols="45" rows="5"></textarea>
-					</label><br>
-					<!-- <input type="submit" name="letter"> -->
-					<button class="mail-btn" type="submit">отправить</button>
-				</form>
-		</div>
-	</div>
-</main>
-<footer class="page-footer">
-	<div class="page-footer-information">
-			<div class="container">
-					<div class="row">
-							<div class="col-sm-6 col">
-									<div class="page-footer-heading">
-											<!-- <h2>Contact Us</h2> -->
-											<h2>О нас</h2>
-									</div>
-									<div class="row">
-											<div class="col-md-5">
-													<address>
-															<i class="fa fa-building address"></i>
-															<span>
-																	г.Владикавказ<br>
-																	ул.Чкалова 1а
-															</span>
-													</address>
-											</div>
-											<div class="col-md-7">
-													<address>
-																	<i class="fa fa-phone-square fa-fw"></i> <strong><a href="tel:(918) 709-3737">(918) 709-37-37</a></strong><br>
-																	<i class="fa fa-envelope fa-fw"></i> <a href="mailto:torgi-bonum@mail.ru" class="address-email">torgi-bonum@mail.ru</a>
-													</address>
-											</div>
-									</div>
-				<div class="row">
-					<div class="col-xs-12">
+	<!-- Custom HTML -->
+	<header class="main-head">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-sm-5 col-md-4 my-logo"><a href="index.html" class="my-logo-a">BONUM</a></div>
+				<div class="col col-md-3 align-self-center adress">Адрес организации<br><div class="info-data-adress"><span><i class="fas fa-map-marker-alt"></i> г.Владикавказ ул.Чкалова 1а</span></div></div>
+				<div class="justify-start col-sm-7 col-md-5 align-self-center">
+					<div class="info-data col phone">
+						<span><i class="fas fa-phone"></i> +7(988)</span> 888 88 88<br>
 					</div>
+					<div class="info-data col email">
+						<span><i class="fa fa-envelope"></i> E-Mail:</span> <a href="mailto:torgi-bonum@mail.ru">torgi-bonum@mail.ru</a>
+					</div>
+
 				</div>
 			</div>
-			<div class="col-sm-6 col">
-			<div class="page-footer-heading">
-				<!-- <h2>Practice Areas</h2> -->
-				<h2>Области практики</h2>
-			</div>
-			<nav class="footer-navigation">
-				<a href="https://calgarydefence.com/practice-areas/internet-crime-pornography/" title="Internet Crime / Pornography">Internet Crime / Pornography</a>
-				<a href="https://calgarydefence.com/practice-areas/violent-and-domestic-offences/" title="Violent &amp; Domestic Offences">Violent &amp; Domestic Offences</a>                                    <a href="https://calgarydefence.com/practice-areas/dui-impaired-driving/" title="DUI / Impaired Driving">DUI / Impaired Driving</a>
-				<a href="https://calgarydefence.com/practice-areas/homicide/" title="Homicide">Homicide</a>
-				<a href="https://calgarydefence.com/practice-areas/property-offences/" title="Property Offences">Property Offences</a>
-				<a href="https://calgarydefence.com/practice-areas/youth-matters/" title="Youth Matters">Youth Matters</a>
-				<a href="https://calgarydefence.com/practice-areas/asset-recovery/" title="Asset Recovery">Asset Recovery</a>
-				<a href="https://calgarydefence.com/practice-areas/firearm-and-weapons-offences/" title="Firearm &amp; Weapons Offences">Firearm &amp; Weapons Offences</a>
-				<a href="https://calgarydefence.com/practice-areas/breach-charges/" title="Breach Charges">Breach Charges</a>
-				<a href="https://calgarydefence.com/practice-areas/administrative-offences/" title="Administrative Offences">Administrative Offences</a>
-				<a href="https://calgarydefence.com/practice-areas/drug-offences/" title="Drug Offences">Drug Offences</a>
-				<a href="https://calgarydefence.com/practice-areas/bail/" title="Bail">Bail</a>
-				<a href="https://calgarydefence.com/practice-areas/appeals/" title="Appeals">Appeals</a>
-			</nav>      
 		</div>
-	</div>
-</div>
-</div>
-	<div class="page-footer-copyright">
-			<div class="container">
-					<div class="row">
-							<div class="col col-sm-6">Copyright © 2015 <strong>Roulston Urquhart Criminal Defence</strong></div>
-							<div class="col-xs-12 col-sm-6 col icona-marketing">legal marketing by <a href="http://icona.ca/" title="legal marketing by ICONA" target="_blank">ICONA</a></div>
-					</div>
+		<div class="light-line"></div>
+		<!-- Menu -->
+		<button class="main-menu-button" id="myMenuId"><i class="fa fa-bars"></i></button>
+		<nav class="main-menu">
+			<div class="col super-menu">
+				<ul class="sf-menu">
+					<li class="col-md-auto" style="background-color: #106ca9;"><a href="index.html">О нас</a></li>
+					<li class="col-md-auto"><a href="services.html">Услуги</a></li>
+					<li class="col-md-auto"><a href="crew.html">Команда</a></li>
+					<li class="col-md-auto"><a href="cases.html">Практика</a></li>
+				</ul>
+			</div>	
+		</nav>
+		<script type="text/javascript">
+			$(document.getElementById('myMenuId')).click(function(){
+				if ($(window).width() <= 768) {
+		    	$(this).next().slideToggle();
+		    }
+			});
+		</script>
+	</header>
+	<!--  style="background-image: url(img/giammarco-boscaro-380907-unsplash.jpg);" -->
+  <main class="slide row justify-content-around">
+		<div class="info-content col-md-5">
+			<h1>Экспертная организация</h1>
+			<p>
+				Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Продолжил послушавшись правилами выйти толку рукопись имени себя проектах силуэт мир, языкового семантика назад парадигматическая то он, коварных текстов текстами.
+			</p>	
+		</div>
+		<div class="contact-content col-md-5">
+				<div class="hidden-xs">
+					<p>
+						<span>Office:  Monday - Friday 8:00 AM to 4:30 PM</span>
+						<br>
+						24 HOURS ANYTIME DAY OR NIGHT: (403) 969-9874
+					</p>
+					<hr>
+					<form disabled class="form-mail">
+						<label>Name
+							<input type="text" name="name"><br>
+						</label>
+						<label>E-Mail
+							<input type="text" name="mail">
+						</label><br>
+						<label>Text Letter <br>
+							<textarea cols="45" rows="5"></textarea>
+						</label><br>
+						<!-- <input type="submit" name="letter"> -->
+						<button class="mail-btn" type="button">отправить</button>
+					</form>
 			</div>
+		</div>
+	</main>
+	<footer class="page-footer">
+    <div class="page-footer-information">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col">
+                    <div class="page-footer-heading">
+                        <!-- <h2>Contact Us</h2> -->
+                        <h2>О нас</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <address>
+                                <i class="fa fa-building address"></i>
+                                <span>
+                                    г.Владикавказ<br>
+																		ул.Чкалова 1а
+                                </span>
+														</address>
+                        </div>
+                        <div class="col-md-7">
+                            <address>
+                                    <i class="fa fa-phone-square fa-fw"></i> <strong><a href="tel:(988) 888-8888">(988) 888-8888</a></strong><br>
+                                    <i class="fa fa-envelope fa-fw"></i> <a href="mailto:torgi-bonum@mail.ru" class="address-email">torgi-bonum@mail.ru</a>
+                            </address>
+                        </div>
+                    </div>
+					<div class="row">
+						<div class="col-xs-12">
+						</div>
+					</div>
+        </div>
+        <div class="col-sm-6 col">
+        <div class="page-footer-heading">
+					<!-- <h2>Practice Areas</h2> -->
+					<h2>Области практики</h2>
+				</div>
+				<nav class="footer-navigation">
+          <a href="https://calgarydefence.com/practice-areas/internet-crime-pornography/" title="Internet Crime / Pornography">Internet Crime / Pornography</a>
+          <a href="https://calgarydefence.com/practice-areas/violent-and-domestic-offences/" title="Violent &amp; Domestic Offences">Violent &amp; Domestic Offences</a>                                    <a href="https://calgarydefence.com/practice-areas/dui-impaired-driving/" title="DUI / Impaired Driving">DUI / Impaired Driving</a>
+					<a href="https://calgarydefence.com/practice-areas/homicide/" title="Homicide">Homicide</a>
+          <a href="https://calgarydefence.com/practice-areas/property-offences/" title="Property Offences">Property Offences</a>
+          <a href="https://calgarydefence.com/practice-areas/youth-matters/" title="Youth Matters">Youth Matters</a>
+          <a href="https://calgarydefence.com/practice-areas/asset-recovery/" title="Asset Recovery">Asset Recovery</a>
+          <a href="https://calgarydefence.com/practice-areas/firearm-and-weapons-offences/" title="Firearm &amp; Weapons Offences">Firearm &amp; Weapons Offences</a>
+          <a href="https://calgarydefence.com/practice-areas/breach-charges/" title="Breach Charges">Breach Charges</a>
+          <a href="https://calgarydefence.com/practice-areas/administrative-offences/" title="Administrative Offences">Administrative Offences</a>
+          <a href="https://calgarydefence.com/practice-areas/drug-offences/" title="Drug Offences">Drug Offences</a>
+          <a href="https://calgarydefence.com/practice-areas/bail/" title="Bail">Bail</a>
+          <a href="https://calgarydefence.com/practice-areas/appeals/" title="Appeals">Appeals</a>
+				</nav>      
+			</div>
+    </div>
 	</div>
+</div>
+    <div class="page-footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col col-sm-6">Copyright © 2015 <strong>Roulston Urquhart Criminal Defence</strong></div>
+                <div class="col-xs-12 col-sm-6 col icona-marketing">legal marketing by <a href="http://icona.ca/" title="legal marketing by ICONA" target="_blank">ICONA</a></div>
+            </div>
+        </div>
+    </div>
 </footer>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script src="js/scripts.min.js"></script>
+	<script type="text/javascript" src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="js/scripts.min.js"></script>
 </body>
 </html>
